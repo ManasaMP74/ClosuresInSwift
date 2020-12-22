@@ -98,3 +98,8 @@ func autoClosureWithReturnString(closure: @autoclosure ()->String) {
     let res = closure()
     print(res)
 }
+
+func autoClosureWithEscaping(closure: @autoclosure @escaping ()->String) {
+    let res = closure()
+    print(res)
+}
