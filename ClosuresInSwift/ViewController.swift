@@ -120,18 +120,24 @@ extension ViewController {
         print("*****************************\n")
         
         
-        //Autoclosure with return value
+       //Autoclosure with Bool value
         /*output: false
          */
-        autoClosureReturnValue(closure: 10>20)
+        autoClosureWithBoolValue(closure: 10>20)
         
         print("*****************************\n")
         
-        //Autoclosure with return value
+        //Autoclosure with String value
         /*output: Hi, How are you?
          */
-        autoClosureWithReturnString(closure: "Hi, How are you?")
+        autoClosureWithString(closure: "Hi, How are you?")
         
+        print("*****************************\n")
+        
+        //Autoclosure with escaping
+        /*output: Hi, How are you?
+         */
+        autoClosureWithEscaping(closure: "Hi, How are you?")
         print("*****************************\n")
     }
 }
