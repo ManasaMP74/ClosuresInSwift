@@ -90,11 +90,11 @@ func autoClosure(closure: @autoclosure ()->(), msg: String) {
     closure()
 }
 
-func autoClosureReturnValue(closure: @autoclosure ()->Bool) {
+func autoClosureWithBoolValue(closure: @autoclosure ()->Bool) {
     print(closure())
 }
 
-func autoClosureWithReturnString(closure: @autoclosure ()->String) {
+func autoClosureWithString(closure: @autoclosure ()->String) {
     let res = closure()
     print(res)
 }
