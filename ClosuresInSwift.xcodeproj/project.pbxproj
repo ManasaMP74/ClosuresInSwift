@@ -17,6 +17,11 @@
 		6B7C1C2525920BB7001EE41D /* SimpleClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7C1C2425920BB7001EE41D /* SimpleClosure.swift */; };
 		6B7C1C2825920F1B001EE41D /* Closure+function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7C1C2725920F1B001EE41D /* Closure+function.swift */; };
 		6B7C1C2F25924228001EE41D /* Closer+Notifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7C1C2E25924228001EE41D /* Closer+Notifier.swift */; };
+		6B9A362B25925695007F5397 /* EscapingClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9A362A25925695007F5397 /* EscapingClosure.swift */; };
+		6B9A362E259256BF007F5397 /* NonEscapingClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9A362D259256BF007F5397 /* NonEscapingClosure.swift */; };
+		6B9A3631259256DD007F5397 /* Autoclosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9A3630259256DD007F5397 /* Autoclosure.swift */; };
+		6B9A363425925711007F5397 /* ClosureAsCompletionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9A363325925711007F5397 /* ClosureAsCompletionHandler.swift */; };
+		6B9A363A2592576F007F5397 /* EscapingClosure+WeakReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9A36392592576F007F5397 /* EscapingClosure+WeakReference.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,11 @@
 		6B7C1C2425920BB7001EE41D /* SimpleClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleClosure.swift; sourceTree = "<group>"; };
 		6B7C1C2725920F1B001EE41D /* Closure+function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Closure+function.swift"; sourceTree = "<group>"; };
 		6B7C1C2E25924228001EE41D /* Closer+Notifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Closer+Notifier.swift"; sourceTree = "<group>"; };
+		6B9A362A25925695007F5397 /* EscapingClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingClosure.swift; sourceTree = "<group>"; };
+		6B9A362D259256BF007F5397 /* NonEscapingClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonEscapingClosure.swift; sourceTree = "<group>"; };
+		6B9A3630259256DD007F5397 /* Autoclosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autoclosure.swift; sourceTree = "<group>"; };
+		6B9A363325925711007F5397 /* ClosureAsCompletionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureAsCompletionHandler.swift; sourceTree = "<group>"; };
+		6B9A36392592576F007F5397 /* EscapingClosure+WeakReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EscapingClosure+WeakReference.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +77,15 @@
 				6B7C1C0C25920AA6001EE41D /* AppDelegate.swift */,
 				6B7C1C0E25920AA6001EE41D /* SceneDelegate.swift */,
 				6B7C1C1025920AA6001EE41D /* ViewController.swift */,
-				6B7C1C2E25924228001EE41D /* Closer+Notifier.swift */,
+				6B9A362A25925695007F5397 /* EscapingClosure.swift */,
+				6B9A36392592576F007F5397 /* EscapingClosure+WeakReference.swift */,
+				6B9A362D259256BF007F5397 /* NonEscapingClosure.swift */,
 				6B7C1C2725920F1B001EE41D /* Closure+function.swift */,
+				6B9A363325925711007F5397 /* ClosureAsCompletionHandler.swift */,
+				6B9A3630259256DD007F5397 /* Autoclosure.swift */,
 				6B7C1C2125920AE0001EE41D /* ClosureCaptureList.swift */,
 				6B7C1C2425920BB7001EE41D /* SimpleClosure.swift */,
+				6B7C1C2E25924228001EE41D /* Closer+Notifier.swift */,
 				6B7C1C1225920AA6001EE41D /* Main.storyboard */,
 				6B7C1C1525920AAC001EE41D /* Assets.xcassets */,
 				6B7C1C1725920AAC001EE41D /* LaunchScreen.storyboard */,
@@ -152,10 +167,15 @@
 				6B7C1C2225920AE0001EE41D /* ClosureCaptureList.swift in Sources */,
 				6B7C1C2F25924228001EE41D /* Closer+Notifier.swift in Sources */,
 				6B7C1C2525920BB7001EE41D /* SimpleClosure.swift in Sources */,
+				6B9A363A2592576F007F5397 /* EscapingClosure+WeakReference.swift in Sources */,
+				6B9A362E259256BF007F5397 /* NonEscapingClosure.swift in Sources */,
+				6B9A363425925711007F5397 /* ClosureAsCompletionHandler.swift in Sources */,
 				6B7C1C1125920AA6001EE41D /* ViewController.swift in Sources */,
 				6B7C1C0D25920AA6001EE41D /* AppDelegate.swift in Sources */,
 				6B7C1C0F25920AA6001EE41D /* SceneDelegate.swift in Sources */,
 				6B7C1C2825920F1B001EE41D /* Closure+function.swift in Sources */,
+				6B9A3631259256DD007F5397 /* Autoclosure.swift in Sources */,
+				6B9A362B25925695007F5397 /* EscapingClosure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

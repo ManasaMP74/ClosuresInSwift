@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         escapingAndNonEscapingClosures()
         closureCaptureList()
         closerActAsNotifierAfterTaskComplete()
+        let _ = EscapingClosureWithWeakReference()
     }
 }
 
