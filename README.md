@@ -8,3 +8,4 @@ This Project contains following details.
 - autoclosure with escaping
 - closure used as notifier between class after task completes
 - closure with capture the list
+- escaping closure hold weak reference to object instance
