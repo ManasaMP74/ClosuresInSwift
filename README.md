@@ -4,7 +4,7 @@ This Project contains following details.
 - simple closure with return type and without return type
 - with argument + with return type, with argument + without return type, with return type + without argument
 - escaping and non escaping closure
-- autoclosure
+- simple autoclosure and autoclosure with string and bool values
 - autoclosure with escaping
 - closure used as notifier between class after task completes
 - closure with capture the list
