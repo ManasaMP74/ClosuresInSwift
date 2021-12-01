@@ -9,6 +9,7 @@ import Foundation
 func autoClosure(closure: @autoclosure ()->(), msg: String) {
     print(msg)
     closure()
+    
 }
 
 func autoClosureWithBoolValue(closure: @autoclosure ()->Bool) {
