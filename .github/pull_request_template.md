@@ -1,10 +1,10 @@
 ### Criticality of Change done
-[] Major
-[] Medium
-[] Minor
+- [ ] Major
+- [ ] Medium
+- [ ] Minor
 
 ### Describe you're problem
--Provide jira ticket..._
+_Provide jira ticket..._
 
 
 
@@ -12,10 +12,13 @@
 
 
 
-##Describe the solution you'd like
+
+
+### Describe the solution you'd like
 
 
 
 
-##Additional context
+
+### Additional context
 _Add any other context or screenshots about the feature request here..._
